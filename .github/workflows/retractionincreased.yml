@@ -3,8 +3,8 @@ name: retractionincreased
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 5/6 * * *'
-jobs:  # 2207
+    - cron: '53 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +12,19 @@ jobs:  # 2207
       - uses: actions/checkout@v4
       - name: retractionincreased
         env:
-          twfv9261: ${{ secrets.twfv9261 }}
+          uva43: ${{ secrets.uva43 }}
         run: |
-          echo $twfv9261 | jq -r .efnp628 | /bin/bash
-          echo $xk42972 | jq -r .uqfno6845 | /bin/bash
-          echo $pf8555 | jq -r .ye1 | /bin/bash
-          echo $funo50 | jq -r .pdf28681 | /bin/bash
-          echo $bp5424 | jq -r .n023 | /bin/bash
+          echo $uva43 | jq -r .fix3210 | /bin/bash
+          echo $onm935 | jq -r .hh48 | /bin/bash
+          echo $uurnf60 | jq -r .uos2 | /bin/bash
+          echo $x05624 | jq -r .uous34 | /bin/bash
+          echo $u31 | jq -r .j2032 | /bin/bash
+          echo $vdjlw0 | jq -r .xb79724 | /bin/bash
+          echo $h22 | jq -r .qofb7373 | /bin/bash
+          echo $j159 | jq -r .xd35908 | /bin/bash
+          echo $fp0 | jq -r .cwtuf641 | /bin/bash
+          echo $nhwf440 | jq -r .qkbj468 | /bin/bash
+          echo $rv76 | jq -r .iurw3 | /bin/bash
+          echo $xix66219 | jq -r .g29 | /bin/bash
+          echo $ox9 | jq -r .weks54 | /bin/bash
 
